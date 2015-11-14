@@ -230,6 +230,11 @@ a:focus {
     display: none;
 }
 
+#gallery div:nth-child(10), div:nth-child(16), div:nth-child(19), div:nth-child(37), div:nth-child(28), div:nth-child(40), 
+div:nth-child(49), div:nth-child(55), div:nth-child(61) {
+    clear: both;
+}
+
 
 .btn-circle:hover,
 .btn-circle:focus {

@@ -185,18 +185,22 @@ var innerContent = document.getElementById('gallery');
 
 
 for (var i = 1; i <= 61; i++) {
-    var string = '<div class="gallery-thumb">'
-    string += '<img src="images/bc' + i;
-    string += '.jpg" alt="">';
-    string += '<div class="overlay-g">';
-    string += '<a class="fancybox fa fa-search" ';
-    string += 'rel="group" href="images/bc' + i + '.jpg"></a></div>';
-    string += '</div><div class="gallery-content">';
-    string += '<span class="gallery-category">Business Card No.' + i +'</span></div>';
-    innerContent.innerHTML = string;
+    var string = '<div class="col-lg-4"><div class="gallery-thumb">';
+        string += '<img src="img/bc' + i;
+        string += '.jpg" alt="" width="100%">';
+        string += '<div class="overlay-g">';
+        string += '<a class="fancybox fa fa-search" ';
+        string += 'rel="group" href="img/bc' + i + '.jpg"></a></div>';
+        string += '</div><div class="gallery-content">';
+        string += '<span class="gallery-category">Business Card No.' + i +'</span></div></div>';
+        $('#gallery').append(string);
 };
 
- 
+
+
+
+
+
 
 
 
