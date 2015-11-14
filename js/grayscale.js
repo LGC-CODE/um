@@ -176,3 +176,31 @@ function init() {
         icon: image
     });
 }
+
+$('.toggle-gallery').click(function() {
+    $('#gallery').toggleClass('active');
+});
+
+var innerContent = document.getElementById('gallery');
+
+
+for (var i = 1; i <= 61; i++) {
+    var string = '<div class="gallery-thumb">'
+    string += '<img src="images/bc' + i;
+    string += '.jpg" alt="">';
+    string += '<div class="overlay-g">';
+    string += '<a class="fancybox fa fa-search" ';
+    string += 'rel="group" href="images/bc' + i + '.jpg"></a></div>';
+    string += '</div><div class="gallery-content">';
+    string += '<span class="gallery-category">Business Card No.' + i +'</span></div>';
+    innerContent.innerHTML = string;
+};
+
+ 
+
+
+
+
+
+
+
