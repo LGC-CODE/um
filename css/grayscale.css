@@ -214,6 +214,8 @@ a:focus {
     color: red;
     width: inherit;
     font-size: 17px;
+    margin-bottom: 35px;
+    margin-top: 65px;
 }
 
 .btn-orange:hover {
@@ -228,6 +230,12 @@ a:focus {
 
 .active {
     display: none;
+}
+
+@media(min-width:1200px) {
+    .pad-top {
+        padding-top: 110px;
+    }
 }
 
 #gallery div:nth-child(10), div:nth-child(16), div:nth-child(19), div:nth-child(37), div:nth-child(28), div:nth-child(40), 
