@@ -38,15 +38,16 @@ function init() {
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
-        zoom: 15,
+        zoom: 20,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(37.783494, -122.2382595), // New York
+        center: new google.maps.LatLng(37.783553, -122.235980), // New York
 
         // Disables the default Google Maps UI components
         disableDefaultUI: false,
         scrollwheel: true,
         draggable: true,
+        mapTypeId: google.maps.MapTypeId.SATELLITE,
 
         // How you would like to style the map. 
         // This is where you would paste any style found on Snazzy Maps.
@@ -182,7 +183,11 @@ $('.toggle-gallery').click(function() {
     $('#gallery').toggleClass('active');
 });
 
-var innerContent = document.getElementById('gallery');
+$('.toggle-vid').click(function() {
+    $('#videos').toggleClass('active');
+});
+
+// var innerContent = document.getElementById('gallery');
 
 
 for (var i = 1; i <= 61; i++) {
