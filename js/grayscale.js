@@ -47,7 +47,7 @@ function init() {
         disableDefaultUI: false,
         scrollwheel: true,
         draggable: true,
-        mapTypeId: google.maps.MapTypeId.SATELLITE,
+        mapTypeId: google.maps.MapTypeId.HYBRID,
 
         // How you would like to style the map. 
         // This is where you would paste any style found on Snazzy Maps.
