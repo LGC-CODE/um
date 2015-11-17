@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<album>
+  <info>
+    <title>Universal Magazine</title>
+    <comments>El Tri
+En Redwood City,  CA
+5/17/09</comments>
+    <output>C:\Users\PaK1\Desktop\mywebalbum</output>
+    <photosize>1</photosize>
+    <url>http://universalmagazine.net/galerias.html</url>
+  </info>
+  <photo>
+    <title>t1</title>
+    <comments></comments>
+    <filename>C:\Users\PaK1\Desktop\tri\t1.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>t2</title>
+    <comments></comments>
+    <filename>C:\Users\PaK1\Desktop\tri\t2.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>t3</title>
+    <comments></comments>
+    <filename>C:\Users\PaK1\Desktop\tri\t3.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>t4</title>
+    <comments></comments>
+    <filename>C:\Users\PaK1\Desktop\tri\t4.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>t5</title>
+    <comments></comments>
+    <filename>C:\Users\PaK1\Desktop\tri\t5.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>t6</title>
+    <comments></comments>
+    <filename>C:\Users\PaK1\Desktop\tri\t6.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>t8</title>
+    <comments></comments>
+    <filename>C:\Users\PaK1\Desktop\tri\t8.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>tt7</title>
+    <comments></comments>
+    <filename>C:\Users\PaK1\Desktop\tri\tt7.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+</album>

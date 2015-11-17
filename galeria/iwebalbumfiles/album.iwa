@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<album>
+  <info>
+    <title>Lucha Libre</title>
+    <comments>Universal Magazine
+
+</comments>
+    <output>C:\Documents and Settings\lUiZ\Desktop\mywebalbum</output>
+    <photosize>1</photosize>
+    <url>http://universalmagazine.net</url>
+  </info>
+  <photo>
+    <title>photo</title>
+    <comments></comments>
+    <filename>C:\Documents and Settings\lUiZ\Desktop\lucha libre\photo.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>photo2</title>
+    <comments></comments>
+    <filename>C:\Documents and Settings\lUiZ\Desktop\lucha libre\photo2.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>photo3</title>
+    <comments></comments>
+    <filename>C:\Documents and Settings\lUiZ\Desktop\lucha libre\photo3.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>photo4</title>
+    <comments></comments>
+    <filename>C:\Documents and Settings\lUiZ\Desktop\lucha libre\photo4.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>photo5</title>
+    <comments></comments>
+    <filename>C:\Documents and Settings\lUiZ\Desktop\lucha libre\photo5.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>photo6</title>
+    <comments></comments>
+    <filename>C:\Documents and Settings\lUiZ\Desktop\lucha libre\photo6.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>photo7</title>
+    <comments></comments>
+    <filename>C:\Documents and Settings\lUiZ\Desktop\lucha libre\photo7.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>photo8</title>
+    <comments></comments>
+    <filename>C:\Documents and Settings\lUiZ\Desktop\lucha libre\photo8.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>photo9</title>
+    <comments></comments>
+    <filename>C:\Documents and Settings\lUiZ\Desktop\lucha libre\photo9.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+</album>

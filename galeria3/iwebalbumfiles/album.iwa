@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<album>
+  <info>
+    <title>La Bronca</title>
+    <comments>Universal Magazine
+7/20/08
+
+</comments>
+    <output>C:\Documents and Settings\lUiZ\Desktop\mywebalbum</output>
+    <photosize>1</photosize>
+    <url>http://universalmagazine.net</url>
+  </info>
+  <photo>
+    <title>photo15</title>
+    <comments></comments>
+    <filename>C:\Documents and Settings\lUiZ\Desktop\la bronca\photo15.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>photo16</title>
+    <comments></comments>
+    <filename>C:\Documents and Settings\lUiZ\Desktop\la bronca\photo16.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>photo17</title>
+    <comments></comments>
+    <filename>C:\Documents and Settings\lUiZ\Desktop\la bronca\photo17.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>photo18</title>
+    <comments></comments>
+    <filename>C:\Documents and Settings\lUiZ\Desktop\la bronca\photo18.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>photo19</title>
+    <comments></comments>
+    <filename>C:\Documents and Settings\lUiZ\Desktop\la bronca\photo19.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>photo20</title>
+    <comments></comments>
+    <filename>C:\Documents and Settings\lUiZ\Desktop\la bronca\photo20.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>photo21</title>
+    <comments></comments>
+    <filename>C:\Documents and Settings\lUiZ\Desktop\la bronca\photo21.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>photo22</title>
+    <comments></comments>
+    <filename>C:\Documents and Settings\lUiZ\Desktop\la bronca\photo22.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+</album>

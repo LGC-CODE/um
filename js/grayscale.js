@@ -187,11 +187,19 @@ $('.toggle-vid').click(function() {
     $('#videos').toggleClass('active');
 });
 
+$('#events').click(function() {
+    $('#gallery-events').toggleClass('active');
+});
+
+$('.coupons').click(function() {
+    $('.printCoupons').toggleClass('active');
+});
+
 // var innerContent = document.getElementById('gallery');
 
 
 for (var i = 1; i <= 61; i++) {
-    var string = '<div class="col-lg-4"><div class="gallery-thumb">';
+    var string = '<div class="col-lg-4 gallery-item"><div class="gallery-thumb">';
         string += '<img src="img/bc' + i;
         string += '.jpg" alt="" width="100%">';
         string += '<div class="overlay-g">';
@@ -201,6 +209,29 @@ for (var i = 1; i <= 61; i++) {
         string += '<span class="gallery-category">Business Card No.' + i +'</span></div></div>';
         $('#gallery').append(string);
 };
+
+function PrintElem(elem)
+{
+    Popup($(elem).html());
+}
+
+function Popup(data) 
+{
+    var mywindow = window.open('', 'my div', 'my div 2', 'height=400,width=600');
+    mywindow.document.write('<html><head><title>Coupon</title>');
+    /*optional stylesheet*/ //mywindow.document.write('<link rel="stylesheet" href="main.css" type="text/css" />');
+    mywindow.document.write('</head><body >');
+    mywindow.document.write(data);
+    mywindow.document.write('</body></html>');
+
+    mywindow.document.close(); // necessary for IE >= 10
+    mywindow.focus(); // necessary for IE >= 10
+
+    mywindow.print();
+    mywindow.close();
+
+    return true;
+}
 
 
 

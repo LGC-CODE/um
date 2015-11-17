@@ -17,6 +17,10 @@
     <!-- Custom CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
 
+    <!-- Fancy Box -->
+
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -83,7 +87,7 @@
                     <div class="col-md-8 col-md-offset-2">
                         <img width="100%" src="img/logoUM1.png">
                         <p class="intro-text">Buscas quien te haga tus playeras de Negocio? Quieres un Letrero?</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
+                        <a href="#contact" class="btn btn-circle page-scroll">
                             <i class="fa animated">Contactanos!</i>
                         </a>
                     </div>
@@ -115,9 +119,321 @@
                     </div>
                 </div>
                 <div class="col-lg-12">
-                    <p class="col-lg-6"><a class="page-scroll btn btn-orange" href="#products">Ver Productos</a></p>
-                    <div class="col-lg-6">
-                        <div class="btn btn-orange">  Ver Galeria de Eventos
+                    <a class="page-scroll btn btn-orange" href="#products">Ver Productos</a>
+                </div>
+                <div class="col-lg-12">
+                    <img src="img/entrada.jpg" width="100%" class="col-lg-6" style="min-width: 240px; max-width: 800px; margin-bottom:30px">
+                    <p class="col-lg-6">Haz Click Abajo para ver nuestra galeria de Eventos. <span>Cubrimos eventos en todo el area de la bahia!</span></p>
+                </div>
+                <div class="col-lg-12">
+                    <div id="events" class="btn btn-orange">  Ver Galeria de Eventos <i class="fa fa-plus"></i>
+                    </div>
+                    <div id="gallery-events" class="active">
+                        <div class="col-lg-12">
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria/iwebalbumfiles/4f47e08eab594280bd56a0d08edc49aa.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 1</h3>
+                                        <p>Lucha Libre</p>
+                                        <p><a href="/galeria/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria2/iwebalbumfiles/92e3cf67fa964a37b8ac10783b9df162.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 2</h3>
+                                        <p>15 de Septiembre 2008</p>
+                                        <p><a href="/galeria2/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria3/iwebalbumfiles/66645c6082bc4aea8d757be6344cfc07.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 3</h3>
+                                        <p>Los 17 de la Bronca 7/20/08</p>
+                                        <p><a href="/galeria3/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria4/iwebalbumfiles/2e781fd7d27a4583ae57f76d2d5e55f7.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 4</h3>
+                                        <p>Club Rodeo 7/27/2008</p>
+                                        <p><a href="/galeria4/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria5/iwebalbumfiles/c0beeb4edd224a138961ccc47a990927.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 5</h3>
+                                        <p>El Paraiso</p>
+                                        <p><a href="/galeria5/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria6/iwebalbumfiles/eb0d4b5f182546ca8a01c1709b680fbb.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 6</h3>
+                                        <p>HP Pavillion</p>
+                                        <p><a href="/galeria6/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria7/iwebalbumfiles/909959a02a6e45b881333862d00dc6b8.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 7</h3>
+                                        <p>La Kalle Explosion III</p>
+                                        <p><a href="/galeria7/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                             </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria8/iwebalbumfiles/d569ee6dcfda403f8910186441a5ef32.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 8</h3>
+                                        <p>Club Barcelona</p>
+                                        <p><a href="/galeria8/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria9/iwebalbumfiles/296c5817d4b74c53896a0b318bd80007.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 9</h3>
+                                        <p>El Jaripeo</p>
+                                        <p><a href="/galeria9/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria10/iwebalbumfiles/caa6d5c9826444c2a8b3c65b73174e36.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 10</h3>
+                                        <p>Elefante Club Barcelona</p>
+                                        <p><a href="/galeria10/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria11/iwebalbumfiles/b29719fc20b94b07be0481d8211b800a.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 11</h3>
+                                        <p>Centro de Convenciones</p>
+                                        <p><a href="/galeria11/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria9/iwebalbumfiles/296c5817d4b74c53896a0b318bd80007.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 12</h3>
+                                        <p>El Jaripeo</p>
+                                        <p><a href="/galeria12/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria13/iwebalbumfiles/1b1757cfe1274f1f8cc2ebce44066da4.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 13</h3>
+                                        <p>El Tri en Redwood City</p>
+                                        <p><a href="/galeria13/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria14/iwebalbumfiles/0d4db51ceb2a425fb7967a4774a9fdfd.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 14</h3>
+                                        <p>Motel Club Barcelona en Sunnyvale</p>
+                                        <p><a href="/galeria14/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria15/iwebalbumfiles/689a921179c14ec28d65773bbced6949.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 15</h3>
+                                        <p>Panteon Rococo en Sunnyvale, CA</p>
+                                        <p><a href="/galeria15/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria16/iwebalbumfiles/7fbf7e4e14214b8b8a864eabd831a24b.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 16</h3>
+                                        <p>Civic Center en San Jose, CA</p>
+                                        <p><a href="/galeria16/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria17/iwebalbumfiles/1b26de6f813e4da1bd8dc45a699c547e.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 17</h3>
+                                        <p>Civic Center, Lucha Libre</p>
+                                        <p><a href="/galeria17/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria18/iwebalbumfiles/f2dd15e96e1e4b35a6098bc3771535cb.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 18</h3>
+                                        <p>Pasarela Alberto&#39;s Club</p>
+                                        <p><a href="/galeria18/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria19/iwebalbumfiles/95af07902bd54c41a245b7711dd74aa1.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 19</h3>
+                                        <p>Paquita la del Barrio en San Jose</p>
+                                        <p><a href="/galeria19/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria20/iwebalbumfiles/3d023d04a8c54bc193300cb5447ff072.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 20</h3>
+                                        <p>Intocables en San Jose</p>
+                                        <p><a href="/galeria20/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria21/iwebalbumfiles/ca5013db169b41fa9863070bdbf6b00b.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 21</h3>
+                                        <p>Club Palladium en San Jose</p>
+                                        <p><a href="/galeria21/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria22/iwebalbumfiles/276e9a2bf6874c4d879443423eb4988b.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 22</h3>
+                                        <p>Paulina Rubio en Oakland, CA</p>
+                                        <p><a href="/galeria22/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria23/iwebalbumfiles/3b79436bc93c4826934b77fc11ddff7b.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 23</h3>
+                                        <p>Alberto Pedraza en Club Parranda</p>
+                                        <p><a href="/galeria23/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria24/iwebalbumfiles/ad691215d3b54ae0bf0c20b43fff91cb.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 24</h3>
+                                        <p>Centro de Convenciones en San Jose</p>
+                                        <p><a href="/galeria24/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria25/iwebalbumfiles/bc0bfdf5efed4ef890c3f114518b5add.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 25</h3>
+                                        <p>La Arrolladora en Centro de Convenciones</p>
+                                        <p><a href="/galeria25/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria26/iwebalbumfiles/3a7a4dd322e241e395eeeec3249a7f76.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 26</h3>
+                                        <p>Mexico vs Bolivia 2010</p>
+                                        <p><a href="/galeria26/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria27/iwebalbumfiles/04690bb04e034ba7a7c90f443cbb0eb1.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 27</h3>
+                                        <p>Maria Jose en Club Miami</p>
+                                        <p><a href="/galeria27/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria28/iwebalbumfiles/a5de403f88424718859b096b0db1a5f1.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 28</h3>
+                                        <p>Matador Productions en Richmond, CA</p>
+                                        <p><a href="/galeria28/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria29/iwebalbumfiles/0d3a1450766447dbacfbcb0eedc8445a.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 29</h3>
+                                        <p>Piel Caliente en Richmond, CA</p>
+                                        <p><a href="/galeria29/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="thumbnail dark">
+                                    <img src="http://www.universalmagazine.net/galeria30/iwebalbumfiles/2bbe2f9ad1b24a00900b5fa84cf2e988.jpg" alt="leopard">
+                                    <div class="caption">
+                                        <h3>Galeria 30</h3>
+                                        <p>Rockwall Winery 2011</p>
+                                        <p><a href="/galeria30/index.html" class="btn btn-info" role="button"><i class="fa fa-eye"></i> Ver Galeria</a></p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -127,14 +443,36 @@
                     <h1>Especiales:</h1>
                     <h2>Banners 2.5' x 5'</h2>
                     <h2>Solo $49.00!!</h2>
-                    <p><a href="#coupons" class="btn btn-orange">Ver Mas!</a></p>
+                    <div class="coupons btn btn-orange">Ver Mas! <i class="fa fa-plus"></i></div>
                 </div>
+                <div class="printCoupons col-lg-12 active">
+                    <div class="col-md-6">
+                            <div id="mydiv" class="margin-above"> 
+                                <img src="img/couponBC.jpg" width="100%" id="image" alt="coupon">
+                            </div>
+                            <h3 class="margin-above">Valido solo por el mes de</h3>
+                            <p>Junio 2015</p>
+                               <!-- <input type="button" value="Print Div" onclick="PrintElem('#mydiv')" />-->
+                            <p><a onclick="PrintElem('#mydiv')" value="Print Div" class="btn btn-orange" role="button"><i class="fa fa-print"></i> Imprimir Cupon</a></p>
+                    </div>
+                    <div class="col-md-6">
+                            <div id="mydiv2" class="margin-above"> 
+                                <img src="img/banner15percent.jpg" width="100%" id="image" alt="coupon">
+                            </div>
+                            <h3 class="margin-above">Valido solo por el mes de</h3>
+                            <p>Junio 2015</p>
+                            <!-- <input type="button" value="Print Div" onclick="PrintElem('#mydiv')" />-->
+                            <p><a onclick="PrintElem('#mydiv2')" value="Print Div" class="btn btn-orange" role="button"><i class="fa fa-print"></i> Imprimir Cupon</a></p>
+                    </div>
+                </div>
+
                 <div class="div-line col-lg-12"></div>
                 <div id="products" class="col-lg-12">
                     <div class="center-placement">
                         <h1>Productos:</h1>
-                        <p class="toggle-gallery btn btn-orange">Tarjetas de Negocio</p>
-                        <div id="gallery" class="margin-bottom col-lg-12 active"></div>
+                        <div class="toggle-gallery btn btn-orange">Tarjetas de Negocio <i class="fa fa-plus"></i>
+
+                        <div id="gallery" class="margin-bottom col-lg-12 active"></div></div>
                         <h2>Banners</h2>
                         <h2>Playeras</h2>
                         <h2>Paginas Web</h2>
@@ -172,16 +510,17 @@
                 </div>
             </div>
             <div class="col-lg-12">
-                <h1 class="btn btn-orange toggle-vid">Videos
+                <h1 class="btn maxW btn-orange toggle-vid">Videos  <i class="fa fa-plus"></i>
+
                 <div id="videos" class="margin-bottom col-lg-12 active">
                     <div class="col-sm-12 col-md-12">
-                        <p>Este Video es de una Instalacion reciente del mes de Mayo 2015</p>
+                        <p class="text-wrap">Este Video es de una Instalacion reciente del mes de Mayo 2015</p>
                         <div class="video-container">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/zv_UyDR-Jwk" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-12">
-                        <p>Creacion de imanes, Mayo 2015</p>
+                        <p class="text-wrap">Creacion de imanes, Mayo 2015</p>
                         <div class="video-container">
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/Ohl49CPe-N0" frameborder="0" allowfullscreen></iframe>
                         </div>
@@ -194,23 +533,30 @@
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Start Bootstrap</h2>
-                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
-                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
-                </ul>
+            <div class="col-md-6">
+                <p>2286 International Blvd. <br>Oakland, CA 94606</p>
+                <p>Estamos Ubicados en la Esquina de la 23rd Ave. y International Blvd.<br>Visitenos!</p>
+                <a class="btn btn-orange page-scroll" href="#map">Mapa</a>
             </div>
+            <div width="100%" style="max-width: 676px;" class="col-md-6">
+                <div class="col-sm-12 col-md-12 col-xs-offset-1">
+                    <form action="form1.php" method="post">
+                        <div class="form-group">
+                            <!--<label for="name">Name</label>-->
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Name" />
+                        </div>
+                        <div class="form-group">
+                            <!--<label for="email">Email</label>-->
+                            <input type="text" id="email" name="Email" class="form-control" placeholder="Email Address" />
+                        </div>
+                        <div class="form-group">
+                            <!--<label for="message">Message</label>-->
+                            <textarea id="message" name="message" class="form-control" rows="7" placeholder="Write a message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-orange">Send</button>
+                    </form>
+                </div>
+            </div>        
         </div>
     </section>
 
@@ -220,7 +566,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Your Website 2014</p>
+            <p>Copyright &copy; La Universal Magazine 2015</p>
         </div>
     </footer>
 
@@ -238,6 +584,10 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+
+    <!-- Photo Pop Up -->
+
+    <script src="js/jquery.fancybox.js"></script>
 
 </body>
 

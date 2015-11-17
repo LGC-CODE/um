@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<album>
+  <info>
+    <title>Club Rodeo</title>
+    <comments>Universal Magazine
+7/27/08
+
+</comments>
+    <output>C:\Documents and Settings\lUiZ\Desktop\mywebalbum</output>
+    <photosize>1</photosize>
+    <url>http://universalmagazine.net</url>
+  </info>
+  <photo>
+    <title>photo10</title>
+    <comments></comments>
+    <filename>C:\Documents and Settings\lUiZ\Desktop\club rodeo\photo10.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>photo11</title>
+    <comments></comments>
+    <filename>C:\Documents and Settings\lUiZ\Desktop\club rodeo\photo11.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>photo12</title>
+    <comments></comments>
+    <filename>C:\Documents and Settings\lUiZ\Desktop\club rodeo\photo12.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>photo13</title>
+    <comments></comments>
+    <filename>C:\Documents and Settings\lUiZ\Desktop\club rodeo\photo13.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>photo14</title>
+    <comments></comments>
+    <filename>C:\Documents and Settings\lUiZ\Desktop\club rodeo\photo14.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+</album>

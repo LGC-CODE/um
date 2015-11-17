@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<album>
+  <info>
+    <title>Universal Magazine</title>
+    <comments>Panteon Rococo en Sunnyvale, CA 5/01/09</comments>
+    <output>C:\Users\PaK1\Desktop\mywebalbum</output>
+    <photosize>1</photosize>
+    <url>http://universalmagazine.net/galerias.html</url>
+  </info>
+  <photo>
+    <title>p1</title>
+    <comments></comments>
+    <filename>C:\Users\PaK1\Desktop\Panteon Rococo\p1.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>p2</title>
+    <comments></comments>
+    <filename>C:\Users\PaK1\Desktop\Panteon Rococo\p2.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>p3</title>
+    <comments></comments>
+    <filename>C:\Users\PaK1\Desktop\Panteon Rococo\p3.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>p4</title>
+    <comments></comments>
+    <filename>C:\Users\PaK1\Desktop\Panteon Rococo\p4.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>p5</title>
+    <comments></comments>
+    <filename>C:\Users\PaK1\Desktop\Panteon Rococo\p5.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>p6</title>
+    <comments></comments>
+    <filename>C:\Users\PaK1\Desktop\Panteon Rococo\p6.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>p7</title>
+    <comments></comments>
+    <filename>C:\Users\PaK1\Desktop\Panteon Rococo\p7.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>v1</title>
+    <comments></comments>
+    <filename>C:\Users\PaK1\Desktop\Panteon Rococo\v1.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>v2</title>
+    <comments></comments>
+    <filename>C:\Users\PaK1\Desktop\Panteon Rococo\v2.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>v3</title>
+    <comments></comments>
+    <filename>C:\Users\PaK1\Desktop\Panteon Rococo\v3.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>v4</title>
+    <comments></comments>
+    <filename>C:\Users\PaK1\Desktop\Panteon Rococo\v4.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+  <photo>
+    <title>v5</title>
+    <comments></comments>
+    <filename>C:\Users\PaK1\Desktop\Panteon Rococo\v5.jpg</filename>
+    <rotateinfo></rotateinfo>
+    <flip_v_info></flip_v_info>
+    <flip_h_info></flip_h_info>
+  </photo>
+</album>

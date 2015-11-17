@@ -160,6 +160,87 @@ a:focus {
     vertical-align: middle;
 }
 
+.size-adjust {
+    
+}
+
+.margin-above {
+    margin-top: 35px;
+}
+
+/*==============================
+
+Next pop up
+
+==============================*/
+
+@media(min-width:500px) {
+    .siguiente {
+        padding: 0;
+        margin: -115px 0 0 108px;
+        outline: none;
+        vertical-align: top;
+        z-index: 3;
+        position: absolute;
+}
+}
+
+@media(max-width:499px) {
+    .siguiente {
+        margin: -92px 0 0 41px;
+    }
+}
+
+.btn-transp {
+    border: 2px solid red;
+    color: red;
+    width: inherit;
+    font-size: 17px;
+    margin-bottom: 35px;
+    opacity: 0.19;
+}
+
+.btn-transp:hover {
+    color: red;
+    opacity: 1;
+}
+
+
+/*==============================*/
+
+/*==============================
+
+videos
+
+==============================*/
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+    margin-bottom:35px;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h1.maxW {
+    width: 100%;
+}
+
+.text-wrap {
+    white-space: normal;
+}
+
+/*==============================*/
+
 .intro .intro-body .brand-heading {
     font-size: 40px;
 }
@@ -204,7 +285,7 @@ a:focus {
     border-radius: 10px !important;
     font-size: 25px;
     color: #fff;
-    background: 0 0;
+    background: rgb(83, 17, 18) none repeat scroll 0px 0px;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
@@ -227,33 +308,34 @@ a:focus {
 .margin-bottom {
     margin-bottom: 20px;
 }
+/*================*/
+/*gallery code*/
+/*================*/
+
+.gallery-thumb { overflow: hidden; margin-top: 30px; position: relative; }
+.gallery-thumb img { width: 100%; height: auto; }
+.gallery-thumb .overlay-g { position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); top: 0; left: 0; visibility: hidden; opacity: 0; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+.gallery-thumb .overlay-g a { position: absolute; width: 40px; height: 40px; background-color: #a71e2b; text-align: center; line-height: 40px; color: white; top: 50%; left: 50%; margin: -20px 0 0 -20px; }
+
+.gallery-item:hover .overlay-g { visibility: visible; opacity: 1; }
+
+.gallery-content { padding: 20px; background-color: white; }
+
+.gallery-category { color: #626262; }
+
+.gallery-title { color: #222222; margin: 0 0 10px 0; }
 
 .active {
     display: none;
 }
-
+/*=====================================*/
 @media(min-width:1200px) {
     .pad-top {
         padding-top: 5px;
     }
 }
 
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px; height: 0; overflow: hidden;
-    margin-bottom:35px;
-}
- 
-.video-container iframe,
-.video-container object,
-.video-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+
 
 
 #gallery div:nth-child(10), div:nth-child(16), div:nth-child(19), div:nth-child(37), div:nth-child(28), div:nth-child(40), 
@@ -261,12 +343,20 @@ div:nth-child(49), div:nth-child(55), div:nth-child(61) {
     clear: both;
 }
 
+#gallery-events div:nth-child(5), div:nth-child(9){
+    clear: both;
+}
+
+#gallery-events div:nth-child(13){
+    clear: left;
+}
+
 
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: #fff;
-    background: rgba(198, 28, 28, 0.28);
+    color: #000;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
 }
 
 .btn-circle i.animated {
@@ -343,9 +433,14 @@ div:nth-child(49), div:nth-child(55), div:nth-child(61) {
     margin-top: 100px;
 }
 
+.printCoupons {
+    color:red;
+    background: #361010;
+}
+
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 220px;
     }
 
     .download-section {
