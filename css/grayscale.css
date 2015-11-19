@@ -388,6 +388,9 @@ div:nth-child(49), div:nth-child(55), div:nth-child(61) {
     clear: left;
 }
 
+#sardana {
+    display: none;
+}
 
 .btn-circle:hover,
 .btn-circle:focus {
