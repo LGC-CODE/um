@@ -210,6 +210,12 @@ for (var i = 1; i <= 61; i++) {
         $('#gallery').append(string);
 };
 
+for (var i = 1; i <= 13; i++) {
+    var imagesString = '<img class="col-md-4 margin-top" src="img/ex'
+    imagesString += i + '.jpg">';
+    $('.examples').append(imagesString);
+};
+
 function PrintElem(elem)
 {
     Popup($(elem).html());
