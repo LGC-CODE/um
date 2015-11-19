@@ -367,16 +367,21 @@ div:nth-child(49), div:nth-child(55), div:nth-child(61) {
     clear: both;
 }
 
-.examples img:nth-child(4), img:nth-child(7), img:nth-child(13){
+.examples a:nth-child(4), a:nth-child(7), a:nth-child(13){
     clear: both;
 }
 
-.examples img:nth-child(13){
+.examples a:nth-child(13){
     margin-bottom: 30px;
+}
+
+.examples {
+    margin-left: -10px;
 }
 
 .margin-top {
     margin-top: 30px;
+    width:  90%;
 }
 
 #gallery-events div:nth-child(13){

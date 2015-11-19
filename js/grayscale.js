@@ -211,8 +211,9 @@ for (var i = 1; i <= 61; i++) {
 };
 
 for (var i = 1; i <= 13; i++) {
-    var imagesString = '<img class="col-md-4 margin-top" src="img/ex'
-    imagesString += i + '.jpg">';
+    var imagesString = '<a class="fancybox col-md-4" href="img/ex' + i + '.jpg">'
+    imagesString += '<img class="margin-top" width="100%" src="img/ex'
+    imagesString += i + '.jpg"></a>';
     $('.examples').append(imagesString);
 };
 
