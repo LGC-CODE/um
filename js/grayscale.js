@@ -240,10 +240,16 @@ function Popup(data)
     return true;
 }
 
+var audio = document.getElementById('sardana');
 
+function autoPlayIt (){
+    audio.autoplay = true;
+    audio.loop = true;
+    audio.volume = 0.5;
+    audio.load();
+}
 
-
-
+autoPlayIt();
 
 
 
